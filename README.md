@@ -6,7 +6,8 @@ Same as the [original](https://github.com/solderparty/rp2040_stamp_hw) except it
 * NO 500mA 3.3V LDO
 * NO Neopixel
 * NO LiPo supply and charging circuit
-* NO Reset Button
+* NO Reset Button   
+
 But only uses 2 layers. So it will probably be cheaper to make. And if you use RP2040 in your design you probably have your own 3.3v regulator, LEDs, buttons and charge management IC anyway so having them here makes no sense.
 
 The footprint is the same as in the original except 5V and VBAT are unused.
