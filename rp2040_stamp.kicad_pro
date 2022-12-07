@@ -33,14 +33,14 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.35,
-          "width": 1.35
+          "drill": 0.0,
+          "height": 2.0,
+          "width": 2.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.75,
+        "silk_text_size_v": 0.75,
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
@@ -69,6 +69,7 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -87,6 +88,7 @@
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -119,6 +121,7 @@
       "track_widths": [
         0.0,
         0.15,
+        0.1786,
         0.2,
         0.25,
         0.3,
@@ -357,12 +360,8 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "RP2040_Stamp"
-    ],
-    "pinned_symbol_libs": [
-      "Regulator_Switching_Extra"
-    ]
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "rp2040_stamp.kicad_pro",
